@@ -1,0 +1,40 @@
+html, body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,50,172,1) 35%, rgba(93,60,177,1) 39%, rgba(87,70,182,1) 43%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#main-logo {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 30px;
+}
+#itsworked {
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+}
+#center-all {
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#commands {
+    text-align: center;
+}
+#commands p {
+    font-family: 'Courier New', Courier, monospace;
+}
+#foot {
+    margin-top: 40px;
+}
+#valign {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
